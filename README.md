@@ -23,8 +23,10 @@ The app provides a local web UI for running REA's JavaScript/Electron analysis w
 
 ## Start locally
 
-Double-click **Start REA Website.command**. Keep the Terminal window open while using the app, then press Ctrl+C to stop it. Or run from the project directory:
+From the project directory, run the launcher through zsh. Keep the Terminal window open while using the app, then press Ctrl+C to stop it. You can also start the server directly.
 
 ~~~sh
+zsh "./Start REA Website.command"
+# or
 node server.mjs --open
 ~~~
